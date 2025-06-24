@@ -1,0 +1,7 @@
+- name: Test de connectivité SSH avec debian1
+  hosts: lab
+  gather_facts: no
+
+  tasks:
+    - name: Ping via Ansible
+      ping:
